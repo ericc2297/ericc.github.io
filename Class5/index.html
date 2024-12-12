@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touhou Sushi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Touhou Sushi</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu"><button>Menu</button></a></li>
+                <li><a href="#reservations"><button>Reservations</button></a></li>
+                <li><a href="#contact"><button>Contact</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Regular Menu</h2>
+        <div class="menu-item">
+            <h3>Appetizers</h3>
+	    <img src="miso-soup.jpg" alt="Miso Soup"></a>
+            <p>Miso Soup - $2.95</p>
+            <p>Mushroom Soup - $3.95</p>
+	    <p>Seaweed Salad - $6.95</p>
+	    <p>Avocado Salad - $7.95</p>
+        </div>
+        <div class="menu-item">
+	    <img src="sroll.jpg" alt="Sushi Roll"></a>
+            <h3>Classic Rolls</h3>
+            <p>California - $5.95</p>
+            <p>Alaska - $6.75</p>
+            <p>Tuna - $6.75</p>
+            <p>Philadelphia - $6.75</p>
+	    <p>Chicken Tempura - $8.95</p>
+            <p>Shrimp Tempura - $8.95</p>
+        </div>
+        <div class="menu-item">
+            <h3>Sashimi</h3>
+	    <img src="sashimi.jpg" alt="Miso Soup"></a>
+	    <p>Shrimp (Ebi) - $6.25</p>
+	    <p>Squid (Ika) - $6.25</p>
+	    <p>Red Snapper (Tai) - $6.25</p>
+	    <p>Mackerel (Saba) - $6.95</p>
+	    <p>Salmon (Sake) - $6.95</p>
+	    <p>Tuna (Maguro) - $7.50</p>
+	    <p>Fresh Eel (Unagi) - $7.50</p>
+        </div>
+        <div class="menu-item">
+            <h3>Desserts</h3>
+	    <img src="IC.jpg" alt="Ice Cream"></a>
+            <p>Ice Cream - $4.50</p>
+            <p>Chocolate Lava Cake - $8</p>
+        </div>
+    </section>
+
+    <section id="reservations">
+        <h2>Make a Reservation</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" min="1" required>
+
+            <button type="submit">Reserve Table</button>
+        </form>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@touhousushi.com</p>
+        <p>Phone: (908) 555-5555</p>
+	<p>*Not an actual establishment</p>
+    </footer>
+</body>
+</html>
