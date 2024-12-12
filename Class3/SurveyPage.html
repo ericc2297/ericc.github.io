@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Short Survey EC</title>
+<style>
+body{
+background-color:#87CEEB;
+font-family: Times New Roman;
+text-align: center;
+font-size: 18px;
+background-image: url('njdoh.png');
+}
+
+form{
+background-color: #fff;
+max-width: 500px;
+margin: 50px auto;
+padding: 30px 20px;
+box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control{
+text-align: left;
+margin-bottom: 25px;
+}
+
+.form-control label{
+display: block;
+margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea{
+border: 1px solid #777;
+border-radius: 2px;
+font-family: inherit;
+padding: 10px;
+display: block;
+width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"]{
+display: inline-block;
+width: auto;
+}
+
+button{
+background-color: #000080;
+border: 1px solid #777;
+border-radius: 2px;
+color:#fff;
+font-family: Times New Roman;
+font-size: 21px;
+display: block;
+width: 100%;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+button:hover{
+color: #000080;
+background-color: #7FFFD4;
+}
+</style>
+</head>
+<body>
+<h1>Short Survey</h1>
+<form id="form">
+
+<div class="form-control">
+<label for="name" id="label-name">Name</label>
+<input type="text" id="name" placeholder="Enter your name here."/>
+</div>
+
+<div class="form-control">
+<label for="age" id="label-age">Age</label>
+<input type="text" id="age" placeholder="Enter your age here."/>
+</div>
+
+<div class="form-control">
+<label for="gender" id="label-gender">Gender</label>
+<select name="gender" id="gender">
+<option value="">Select your gender here.</option>
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="other">Other</option>
+</select></div>
+
+<div class="form-control">
+<label>New Jersey county of residence</label>
+<select name="county" id="county">
+<option value="">Choose the NJ county you live in here.</option>
+<option value="county1">Atlantic</option>
+<option value="county2">Bergen</option>
+<option value="county3">Burlington</option>
+<option value="county4">Camden</option>
+<option value="county5">Cape May</option>
+<option value="county6">Cumberland</option>
+<option value="county7">Essex</option>
+<option value="county8">Gloucester</option>
+<option value="county9">Hudson</option>
+<option value="county10">Hunterdon</option>
+<option value="county11">Mercer</option>
+<option value="county12">Middlesex</option>
+<option value="county13">Monmouth</option>
+<option value="county14">Morris</option>
+<option value="county15">Ocean</option>
+<option value="county16">Passaic</option>
+<option value="county17">Salem</option>
+<option value="county18">Somerset</option>
+<option value="county19">Sussex</option>
+<option value="county20">Union</option>
+<option value="county21">Warren</option>
+<option value="countyN">Other/Non-NJ Resident</option>
+</select></div>
+
+<div class="form-control">
+<label>Do you regularly consume alchohol?</label>
+<input type="radio" id="drinker" name="drinker" value="yes">Yes</input>
+<input type="radio" id="drinker" name="drinker" value="no">No</input>
+</div>
+
+<div class="form-control">
+<label>Are you an active smoker <b>OR </b>a marijuana consumer?</label>
+<input type="radio" id="smoker" name="smoker" value="yes">Yes</input>
+<input type="radio" id="smoker" name="smoker" value="no">No</input>
+</div>
+
+<div class="form-control">
+<label>Do you have any of the following? (Check one or more boxes below)</label>
+<input type="checkbox" id="condition1" name="condition1" value="EAllergies">Environmental Allergies</input><br>
+<input type="checkbox" id="condition2" name="condition2" value="FAllergies">Food Allergies</input><br>
+<input type="checkbox" id="condition3" name="condition3" value="WIS">Weakened Immune System</input><br>
+<input type="checkbox" id="condition4" name="condition4" value="CV19">Covid-19</input><br>
+<input type="checkbox" id="condition5" name="condition5" value="HIVAIDS">HIV/AIDS</input><br>
+<input type="checkbox" id="condition6" name="condition0" value="None">None of the Above</input></div>
+
+
+<button type="submit" value="submit">Submit</button>
+</form>
+</body>
+</html>
