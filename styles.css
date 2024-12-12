@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #00008b;
     padding: 20px;
     color: white;
 }
@@ -80,7 +80,6 @@ nav .nav-links a {
     background-color: #e5533d;
 }
 
-/* About Section */
 .about {
     padding: 50px 20px;
     text-align: center;
@@ -121,7 +120,6 @@ nav .nav-links a {
     margin: 0 auto;
 }
 
-/* Projects Section */
 .projects {
     padding: 50px 20px;
     background-color: #ffffff;
@@ -178,7 +176,6 @@ nav .nav-links a {
     font-weight: bold;
 }
 
-/* Contact Section */
 .contact {
     padding: 50px 20px;
     background-color: #f9f9f9;
