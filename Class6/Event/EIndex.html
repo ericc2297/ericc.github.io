@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+ 
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            width: 100%;
+            height: 100vh;
+            background:
+                url('CMH.jpg');
+            background-size: cover;
+        }
+
+        section .leftBox {
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+ 
+        section .leftBox .content {
+            color: #fff;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            transition: .5s;
+        }
+ 
+        section .leftBox .content:hover {
+            background: #FF5F1F;
+	    color: #000;
+        }
+ 
+        section .leftBox .content h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+ 
+        section .leftBox .content p {
+            margin: 10px 0 0;
+            padding: 0;
+        }
+ 
+        section .events {
+            position: relative;
+            width: 50%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            float: right;
+            box-sizing: border-box;
+        }
+
+        section .events ul {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+ 
+        section .events ul li {
+            list-style: none;
+            background: #fff;
+            box-sizing: border-box;
+            height: 200px;
+            margin: 15px 0;
+        }
+ 
+        section .events ul li .time {
+            position: relative;
+            padding: 20px;
+            background: #262626;
+            box-sizing: border-box;
+            width: 30%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            transition: .5s;
+        }
+ 
+        section .events ul li:hover .time {
+            background: #FF5F1F;
+	    color: #000;
+        }
+ 
+        section .events ul li .time h2 {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 60px;
+            line-height: 30px;
+        }
+ 
+        section .events ul li .time h2 span {
+            font-size: 30px;
+        }
+ 
+        section .events ul li .details {
+            padding: 20px;
+            background: #fff;
+            box-sizing: border-box;
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+ 
+        section .events ul li .details h3 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-size: 22px;
+        }
+ 
+        section .events ul li .details p {
+            position: relative;
+            margin: 10px 0 0;
+            padding: 0;
+            font-size: 16px;
+        }
+ 
+        section .events ul li .details a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1.5px solid #262626;
+            margin-top: 8px;
+            font-size: 18px;
+            transition: .5s;
+        }
+ 
+        section .events ul li .details a:hover {
+            background: #FF5F1F;
+	    color: #000;
+        }
+    </style>
+</head>
+ 
+<body>
+    <section>
+        <div class="leftBox">
+            <div class="content">
+                <h1>
+		Riverside Musical Hall
+                </h1>
+                <p>Welcome to Riverside Music Hall, where music, performing arts, and passion converge. Nestled by the river as our glorious backdrop, our venue offers an intimate setting for a diverse and sophisticated range of performances, from local talents to internationally acclaimed artists. With state-of-the-art acoustics and a welcoming atmosphere, Harmony Hall is dedicated to providing unforgettable experiences for music lovers of all kinds. Join us in celebrating the power of music to inspire, connect, and entertain.</p></div></div>
+        <div class="events">
+            <ul>
+                <li>
+                    <div class="time">
+                        <h2>
+                            17 <br><span>November</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Hans Zimmer
+                        </h3>
+                        <p>Join us for an unforgettable evening celebrating the iconic music of Hans Zimmer. Experience the magic of his legendary film scores performed live by a full orchestra, featuring selections from "Inception," "The Lion King," "Pirates of the Caribbean," "The Da Vinci Code", and more. Immerse yourself in the epic soundscapes that have captivated audiences worldwide. Don't miss this unique tribute to one of the greatest composers of our time.</p>
+                    </div>
+                    <div style="clear: both;"></div>
+                </li>
+                <li>
+                    <div class="time">
+                        <h2>
+                            14<br><span>December</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            Keiichi Okabe
+                        </h3>
+                        <p>Experience an enchanting night dedicated to the mesmerizing compositions of Keiichi Okabe. Delight in the hauntingly beautiful music from the acclaimed "NieR" series, brought to life by a talented orchestra and choir. Immerse yourself in the captivating melodies and emotional depth that have made Okabe's work beloved by fans worldwide. Join us for this unique celebration of a visionary composer.
+                        </p>
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+                <li>
+                    <div class="time">
+                        <h2>
+                            27<br><span>December</span>
+                        </h2>
+                    </div>
+                    <div class="details">
+                        <h3>
+                            James Hornier Tribute
+                        </h3>
+                        <p>Nearly after a decade of his passing, join us for a spectacular tribute to the legendary composer James Horner. Revel in the sweeping scores from classics like "Titanic," "Braveheart," and "Avatar," performed by a full orchestra. Experience the emotional depth and epic grandeur of Horner's music in an unforgettable evening that honors his enduring legacy. Don't miss this celebration of one of cinema's most cherished composers.</p>
+                    </div>
+                    <div style="clear:both;"></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+ 
+</html>
