@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Eric C.</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Freelancer Landscape, Nature, and Portrait Photographer. Always willing to try new things.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="grid">
+            <div class="grid-item"><img src="photo1.jpg" alt="Photo 1" 				    onclick="openModal('photo1.jpg')"></div>
+            <div class="grid-item"><img src="photo2.jpg" alt="Photo 2" 		    onclick="openModal('photo2.jpg')"></div>
+            <div class="grid-item"><img src="photo3.jpg" alt="Photo 3" onclick="openModal('photo3.jpg')"></div>
+            <div class="grid-item"><img src="photo4.jpg" alt="Photo4" onclick="openModal('photo4.jpg')"></div>
+            <div class="grid-item"><img src="photo5.jpg" alt="Photo 5" onclick="openModal('photo5.jpg')"></div>
+            <div class="grid-item"><img src="photo6.jpg" alt="Photo 6" onclick="openModal('photo6.jpg')"></div>
+            <div class="grid-item"><img src="photo7.jpg" alt="Photo 7" onclick="openModal('photo7.jpg')"></div>
+            <div class="grid-item"><img src="photo8.jpg" alt="Photo 8" onclick="openModal('photo8.jpg')"></div>
+            <div class="grid-item"><img src="photo9.jpg" alt="Photo 9" onclick="openModal('photo9.jpg')"></div>
+            <div class="grid-item"><img src="photo10.jpg" alt="Photo 10" onclick="openModal('photo10.jpg')"></div>
+            <div class="grid-item"><img src="photo11.jpg" alt="Photo 11"
+onclick="openModal('photo11.jpg')"></div>
+            <div class="grid-item"><img src="photo12.jpg" alt="Photo 12" onclick="openModal('photo12.jpg')"></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Photography Portfolio</p>
+    </footer>
+
+ <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script>
+        function openModal(src) {
+            document.getElementById("modalImage").src = src;
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+    </script>
+</body>
+</html>
