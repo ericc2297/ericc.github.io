@@ -89,10 +89,10 @@ nav .nav-links a:hover{
     margin: 0 auto;
 }
 
-.profile{
+.about img{
     float: center;
     margins: auto;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .skills {
