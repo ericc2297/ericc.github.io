@@ -45,6 +45,12 @@ nav .nav-links a {
     font-size: 18px;
 }
 
+nav .nav-links a:hover{
+    background-color: #002366;
+    border: 2px solid #d4af37;
+    border-radius: 3px;
+}
+
 .hero {
     background-color: #0047AB;
     height: 80vh;
