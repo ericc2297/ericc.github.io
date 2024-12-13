@@ -178,61 +178,38 @@ nav .nav-links a:hover{
     font-weight: bold;
 }
 
-.contact {
-    padding: 50px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-}
-
-.contact h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-}
-
-.contact form {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-.contact .form-group {
-    margin-bottom: 20px;
-}
-
-.contact .form-group label {
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-    display: block;
-}
-
-.contact .form-group input,
-.contact .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.contact .submit-btn {
-    background-color: #ff6347;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact .submit-btn:hover {
-    background-color: #e5533d;
-}
-
 footer {
     background-color: #002366;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    background-color: #002366;
+    border: 2px solid #d4af37;
+    border-radius: 3px;
 }
