@@ -89,10 +89,12 @@ nav .nav-links a:hover{
     margin: 0 auto;
 }
 
-.about img{
-    height: 20%;
-    width: 20%;
-    margin: auto;
+.profile{
+    float: center;
+    height: 30px;
+    max-width: 20%;
+    display: inline-block;
+    margins: auto;
 }
 
 .skills {
