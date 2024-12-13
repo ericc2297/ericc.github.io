@@ -95,6 +95,7 @@ nav .nav-links a:hover{
     max-width: 20%;
     display: inline-block;
     margins: auto;
+    border-radius: 10px;
 }
 
 .skills {
